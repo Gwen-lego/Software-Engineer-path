@@ -46,7 +46,6 @@ Mini Project (3 days)
 Design and plan your very first portfolio website — it doesn’t need code yet, just a well-thought structure and collaboration-ready setup.
 
 - Create a wireframe in Figma <br />
-  Home Page <br />
   <img src="contents/WireframeWebsite.png" alt="wireframe website home page" width="600"/>
 - Create a GitHub repository for your portfolio website <br />
 - Push initial files or README to GitHub <br />
