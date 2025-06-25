@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio Website</title>
 
-    <link rel="stylesheet" href="./style.css" />
+    <!-- Fetch the CSS style -->
+    <link rel="stylesheet" href="./styles/style-index.css" />
+    <link rel="stylesheet" href="./styles/style-header-footer.css" />
+
+    <!-- fecth the police family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,10 +19,12 @@
   </head>
 
   <body>
+    <!-- HEADER SECTION -->
+
     <header>
       <img src="contents/logo.png" alt="Logo" class="logo" />
 
-      <nav>
+      <nav  id="desktop-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="pages/about-me">About me</a></li>
@@ -27,11 +33,37 @@
           <li><a href="pages/contact">Contact</a></li>
         </ul>
       </nav>
+
+      <nav id="mobile-nav">
+        <div class="hamburger-menu">
+          <span class="bar bar1"></span>
+          <span class="bar bar2"></span>
+          <span class="bar bar3"></span>
+        </div>
+        <ul class="mobile-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/about-me">About me</a></li>
+          <li><a href="pages/portofolio">Portofolio</a></li>
+          <li><a href="pages/applications">Applications</a></li>
+          <li><a href="pages/contact">Contact</a></li>
+        </ul>
+
     </header>
+
+    <!-- MAIN CONTAINER -->
+
     <main>
-      THIS IS THE MAIN CONTAINER
-      <section>Central Circle container</section>
+      <section class="main-grid">
+        <div class="top-left-box"></div>
+        <div class="top-right-box"></div>
+        <div class="bottom-left-box"></div>
+        <div class="bottom-right-box"></div>
+      </section>
+      <section1 class="box-circle"></section1>
     </main>
+
+    <!-- FOOTER SECTION -->
+
     <footer>THIS IS THE FOOTER</footer>
   </body>
 </html>
