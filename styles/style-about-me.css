@@ -1,6 +1,9 @@
 .grid-test {
+  border: 3px solid red;
+
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
-  background: red;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(75px, 1fr));
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
 }
